@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="navbar">
-      <div @click="stepBack" class="logo">
+      <div @click="toHome" class="logo">
         <mu-icon size="40" value="flash_on"></mu-icon>
       </div>
       <div class="navbar-item-style">
@@ -76,7 +76,7 @@
           </div>
           <div>
 
-            <a style="font-size: 2.8em;color: white;margin: 10px" href="https://github.com/ecin520/" target="_blank"
+            <a style="font-size: 2.9em;color: white;margin: 10px" href="https://github.com/ecin520/" target="_blank"
                class="icon-plus iconfont icon-github"></a>
 
           </div>
@@ -336,7 +336,7 @@
   }
 
   .plus-icon-leave-to {
-    transform: translateY(-100%);
+    /*<!--transform: translateY(-100%);-->*/
     transition: .5s;
     opacity: 0;
   }

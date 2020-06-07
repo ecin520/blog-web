@@ -99,7 +99,11 @@ body {
     }
 
     .article__details {
-      width: 960px;
+      width: 660px;
+    }
+
+    .article__content {
+      margin-left: 12%;
     }
 
     .show-image {
@@ -112,6 +116,18 @@ body {
 
     }
 
+  }
+
+  @media screen and (min-width: 1500px) {
+
+
+    .article__details {
+      width: 100%;
+    }
+
+    .article__content {
+      margin: 0 !important;
+    }
   }
 }
 

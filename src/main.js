@@ -15,8 +15,8 @@ import 'element-ui/lib/theme-chalk/index.css';
 import axios from 'axios'
 
 import hljs from 'highlight.js';
-import 'highlight.js/styles/darcula.css'
-// import 'highlight.js/styles/hopscotch.css'
+// import 'highlight.js/styles/darcula.css'
+import 'highlight.js/styles/hopscotch.css'
 
 
 import mavonEditor from 'mavon-editor'

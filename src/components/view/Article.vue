@@ -3,7 +3,7 @@
     <p></p>
     <div class="page__container page__main">
 
-      <div class="page__content">
+      <div class="page__content article__content">
         <br>
         <h1 class="article-title">{{article.title}}</h1>
         <mu-flex class="article-tags">
@@ -171,12 +171,13 @@
   }
 
   .markdown-body > > > pre {
-    /*border-style: solid;*/
-    /*border-width: 0.5px;*/
+    border-style: solid;
+    border-width: 0.5px;
     border-color: #e0e3e7;
+    background: white;
     /*border-radius: 7px;*/
     /*background: #333333;*/
-    background: #272822;
+    /*background: #272822;*/
     /*background: #2f2f2f;*/
   }
 

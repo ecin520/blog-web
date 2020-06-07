@@ -3,7 +3,7 @@
     <p></p>
     <div class="page__container page__main">
 
-      <div class="page__content">
+      <div class="page__content article__content">
         <br>
         <h1 class="article-title">关于我</h1>
 
@@ -54,7 +54,7 @@
                     '\n' +
                     '> 推荐地址：[软件分享、破解](http://www.pytap.com/#/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E3%80%81%E7%A0%B4%E8%A7%A3)\n' +
                     '\n' +
-                    '学校：江西师范大学 \n\n 邮箱：15607942340@163.com \n\n 爱好：篮球、折腾 \n\n 目标：BAT'
+                    '学校：江西师范大学 \n\n 邮箱：15607942340@163.com \n\n 爱好：篮球、折腾 \n\n'
 
 
                 marked.setOptions({
