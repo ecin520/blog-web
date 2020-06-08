@@ -1,7 +1,7 @@
 <template>
   <div class="article">
     <p></p>
-    <div class="page__container page__main">
+    <div class="page__container page__main" >
 
       <div class="page__content article__content">
         <br>
@@ -15,7 +15,9 @@
           <span style="font-size: 13px" v-for="(item, index) in article.categories">&nbsp;{{item.name}} {{index === article.categories.length-1 ? '' : ',&nbsp;'}}</span>
         </mu-flex>
         <p class="article-time">{{article.time}}</p>
-        <div v-highlight class="markdown-body article__details" v-html="showContent"></div>
+<!--        <el-card>-->
+          <div v-highlight class="markdown-body article__details" v-html="showContent"></div>
+<!--        </el-card>-->
 
         <!--            <div style="margin-top: 50px">-->
         <!--              <h3 style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 16px;padding-left: 12px;border-left: 4px solid #ec7259;font-size: 18px;font-weight: 500;height: 20px;line-height: 20px;">-->
@@ -201,9 +203,13 @@
   }
 
   .markdown-body > > > blockquote {
-    border-left: 4px solid rgb(66, 185, 131);
+    border-left: 4px solid $side-bar-color;
     padding: 10px 15px;
-    color: rgb(119, 119, 119);
-    background-color: rgba(66, 185, 131, 0.1);
+    color: #666;
+
+    /*border-left: 4px solid rgb(66, 185, 131);*/
+    /*padding: 10px 15px;*/
+    /*color: rgb(119, 119, 119);*/
+    background-color: rgba(66, 185, 181, 0.1);
   }
 </style>

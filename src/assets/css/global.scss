@@ -47,6 +47,9 @@
 
 /* 以下是布局scss */
 body {
+
+  background: white !important;
+
   @media screen and (min-width: $mq-mobile) {
     .page__main {
       padding-top: 80px;
@@ -118,11 +121,11 @@ body {
 
   }
 
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1800px) {
 
 
     .article__details {
-      width: 100%;
+      width: 960px;
     }
 
     .article__content {
