@@ -11,7 +11,7 @@
     </div>
     <div>
       <p class="tag title">标签云</p>
-      <mu-chip @click="tagClick(item)" class="tag-chip" v-for="(item, index) in tags" :key="index" color="rgb(54, 175, 221)">
+      <mu-chip @click="tagClick(item)" class="tag-chip" v-for="(item, index) in tags" :key="index" :color="randColor[Math.floor(Math.random()*(randColor.length))]">
         {{item.name}}
       </mu-chip>
     </div>
@@ -57,11 +57,15 @@
                 selectItem: '',
                 categories: [],
                 tags: [],
-                articles: []
+                articles: [],
+                randColor: [
+                    'red500', 'purple500', 'pink500', 'deep Purple500', 'indigo500', 'blue500', 'lightBlue500', 'cyan500', 'teal500', 'green500', 'lightGreen500', 'amber500', 'yellow700', 'orange500', 'deepOrange500', 'brown500', 'blueGrey500', 'grey500'
+                ]
             }
         },
         methods: {
             init() {
+
                 listAllCategories().then(response => {
                     this.categories = response.content
                 });
