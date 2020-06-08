@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="navbar">
-      <div @click="stepBack" class="logo">
+      <div @click="toHome" class="logo">
         <mu-icon size="40" value="flash_on"></mu-icon>
       </div>
       <div class="navbar-item-style">
@@ -541,7 +541,7 @@
                 })
             },
             toAbout() {
-
+              this.$router.push({path: '/about'})
             },
             toCreate() {
                 this.$router.push({path: '/control-center'})
