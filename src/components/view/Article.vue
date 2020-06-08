@@ -125,7 +125,7 @@
                         renderer: new marked.Renderer(),
                         gfm: true,
                         tables: true,
-                        breaks: false,
+                        breaks: true,
                         pedantic: false,
                         sanitize: false,
                         smartLists: true,
@@ -206,10 +206,9 @@
     border-left: 4px solid $side-bar-color;
     padding: 10px 15px;
     color: #666;
-
     /*border-left: 4px solid rgb(66, 185, 131);*/
     /*padding: 10px 15px;*/
     /*color: rgb(119, 119, 119);*/
-    background-color: rgba(66, 185, 181, 0.1);
+    background-color: rgba(102, 142, 201, 0.11);
   }
 </style>
