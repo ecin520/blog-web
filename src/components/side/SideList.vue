@@ -59,7 +59,7 @@
                 tags: [],
                 articles: [],
                 randColor: [
-                    'red500', 'purple500', 'pink500', 'deep Purple500', 'indigo500', 'blue500', 'lightBlue500', 'cyan500', 'teal500', 'green500', 'lightGreen500', 'lime500', 'amber500', 'yellow700', 'orange500', 'deepOrange500', 'brown500', 'blueGrey500', 'grey500'
+                    'red500', 'purple500', 'pink500', 'deep Purple500', 'indigo500', 'blue500', 'lightBlue500', 'cyan500', 'teal500', 'green500', 'lightGreen500', 'amber500', 'yellow700', 'orange500', 'deepOrange500', 'brown500', 'blueGrey500', 'grey500'
                 ]
             }
         },
