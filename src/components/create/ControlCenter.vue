@@ -54,10 +54,11 @@
                 </mu-flex>
               </div>
             </div>
-            <br><br><br><br>
+            <br><br><br><br><br><br>
             <mu-flex justify-content="center">
               <mu-button @click="logoutClick" color="error">退出登录</mu-button>
             </mu-flex>
+            <br><br><br>
           </mu-card-text>
           <br>
         </mu-card>
@@ -258,7 +259,7 @@
         <div style="display: flex;justify-content: center;flex-wrap: wrap;flex-direction: row;">
           <mu-chip style="margin: 2px" @click="showDetailsEditVisible('modify-tag', item)" class="tag-chip"
                    v-for="(item, index) in tags" :key="index"
-                   color="#36afdd">
+                   :color="randColor[Math.floor(Math.random()*(randColor.length))]">
             {{item.name}}
           </mu-chip>
         </div>
@@ -438,7 +439,10 @@
                     /* 2.2.1 */
                     subfield: true, // 单双栏模式
                     preview: true, // 预览
-                }
+                },
+                randColor: [
+                    'red500', 'purple500', 'pink500', 'deep Purple500', 'indigo500', 'blue500', 'lightBlue500', 'cyan500', 'teal500', 'green500', 'lightGreen500', 'amber500', 'yellow700', 'orange500', 'deepOrange500', 'brown500', 'blueGrey500', 'grey500'
+                ]
             }
         },
         methods: {
@@ -843,5 +847,10 @@
 
   .v-note-wrapper.fullscreen {
     top: 60px !important
+  }
+
+  .tag-chip {
+    margin: 5px;
+    border-radius: 4px;
   }
 </style>
