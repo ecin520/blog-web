@@ -164,7 +164,7 @@
     </mu-dialog>
 
     <!-- 文章编辑卡片 -->
-    <mu-dialog width="800"
+    <mu-dialog width="700"
                :scrollable="true"
                transition="scale"
                overlay-color="hsla(209, 100%, 56%, 0.73)"
@@ -360,7 +360,7 @@
         data() {
             return {
                 current: 1,
-                pageSize: 9,
+                pageSize: 8,
                 total: null,
                 articleAddVisible: false,
                 articleEditVisible: false,
