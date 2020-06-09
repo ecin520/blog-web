@@ -164,7 +164,7 @@
     </mu-dialog>
 
     <!-- 文章编辑卡片 -->
-    <mu-dialog width="600"
+    <mu-dialog width="800"
                :scrollable="true"
                transition="scale"
                overlay-color="hsla(209, 100%, 56%, 0.73)"
@@ -199,7 +199,7 @@
           </div>
           <br>
           <mu-flex justify-content="center">
-            <mu-pagination class="muse-pagination" @change="changePage" :page-count="3" :page-size="pageSize" raised
+            <mu-pagination class="muse-pagination" @change="changePage" :page-count="5" :page-size="pageSize" raised
                            circle :total="total" :current.sync="current"></mu-pagination>
           </mu-flex>
           <br>

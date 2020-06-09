@@ -40,7 +40,7 @@
 
         <div class="pagination">
           <mu-flex justify-content="center">
-            <mu-pagination class="muse-pagination" @change="changePage" :page-count="3" :page-size="pageSize" raised
+            <mu-pagination class="muse-pagination" @change="changePage" :page-count="5" :page-size="pageSize" raised
                            circle :total="total" :current.sync="current"></mu-pagination>
           </mu-flex>
         </div>

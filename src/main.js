@@ -31,6 +31,8 @@ Vue.directive('highlight',function (el) {
   }, 1)
 });
 
+import 'material-design-icons/iconfont/material-icons.css'
+
 import './assets/icons/iconfont.css'
 import './assets/css/global.scss'
 
